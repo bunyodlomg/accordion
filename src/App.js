@@ -31,7 +31,7 @@ function App() {
         <h1 className='app__title'>Questions</h1>
         {
           list.map((item) => {
-            return <Accordion title={item.title} text={item.text} />
+            return <Accordion key={item.title} title={item.title} text={item.text} />
           })
         }
       </div>
