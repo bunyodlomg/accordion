@@ -44,6 +44,8 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  align-self: center;
+  gap: 1rem;
 }
 
 .title {
@@ -51,16 +53,21 @@ body {
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 1px;
+  width: 100%;
+  max-width: 600px;
 }
 
 .btn {
-  width: 32px;
-  height: 32px;
   border: 0;
+  width: 100%;
   border-radius: 50%;
   background-color: #324054;
   color: white;
-  font-size: 30px;
+  max-width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .text {
